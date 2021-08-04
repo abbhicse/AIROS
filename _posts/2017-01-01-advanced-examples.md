@@ -30,13 +30,34 @@ Embed code by putting `{{ "{% highlight language " }}%}` `{{ "{% endhighlight " 
 
 {% highlight c %}
 
-static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocator* requestAlloc)
-{
-    struct Admin* admin = Identity_check((struct Admin*) vAdmin);
-    int64_t enabled = admin->asyncEnabled;
-    Dict d = Dict_CONST(String_CONST("asyncEnabled"), Int_OBJ(enabled), NULL);
-    Admin_sendMessage(&d, txid, admin);
-}
+import matplotlib.pyplot as plt
+import numpy as np
+PI = np.p
+
+class Arrow:
+    def __init__(self, x, y, theta, L, c):
+        angle = np.deg2rad(30)
+        d = 0.5 * L
+        w = 2
+        
+        x_start = x
+        y_start = y
+        x_end = x + L * np.cos(theta)
+        y_end = y + L * np.sin(theta)
+        theta_hat_L = theta + PI - angle
+        theta_hat_R = theta + PI + angle
+        x_hat_start = x_end
+        x_hat_end_L = x_hat_start + d * np.cos(theta_hat_L)
+        x_hat_end_R = x_hat_start + d * np.cos(theta_hat_R)
+        y_hat_start = y_end
+        y_hat_end_L = y_hat_start + d * np.sin(theta_hat_L)
+        y_hat_end_R = y_hat_start + d * np.sin(theta_hat_R)
+       
+        plt.plot([x_start, x_end], [y_start, y_end], color=c, linewidth=w)
+        plt.plot([x_hat_start, x_hat_end_L],
+                 [y_hat_start, y_hat_end_L], color=c, linewidth=w)
+        plt.plot([x_hat_start, x_hat_end_R],
+                 [y_hat_start, y_hat_end_R], color=c, linewidth=w)
 
 {% endhighlight %}
 
