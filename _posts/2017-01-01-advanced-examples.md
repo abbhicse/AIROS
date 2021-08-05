@@ -28,7 +28,7 @@ $$ i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2
 
 Embed code by putting `{{ "{% highlight language " }}%}` `{{ "{% endhighlight " }}%}` blocks around it. Adding the parameter `linenos` will show source lines besides the code.
 
-{% highlight a %}
+{% highlight c %}
 
 import matplotlib.pyplot as plt
 import numpy as np
