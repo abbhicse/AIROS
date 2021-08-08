@@ -1,6 +1,6 @@
 ---
 title: "Table of contents"
-permalink: "/tablr-of-contents/"
+permalink: "/table-of-contents/"
 layout: page
 ---
 ## ROS Developer Learning path
