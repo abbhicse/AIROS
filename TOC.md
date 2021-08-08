@@ -7,4 +7,4 @@ layout: page
 
 ### ROS For Beginner
 
-  - [Introduction to robotics]https://abbhicse.github.io/AIROS/introduction-to-robotics)
+  - [Introduction to robotics](https://abbhicse.github.io/AIROS/introduction-to-robotics/)
