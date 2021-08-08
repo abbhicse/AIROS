@@ -1,5 +1,5 @@
 ---
-title: "Table of contents"
+title: "Table of posts"
 permalink: "/index/"
 layout: page
 ---
