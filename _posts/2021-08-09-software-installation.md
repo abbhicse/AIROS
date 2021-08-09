@@ -4,7 +4,9 @@ mathjax: true
 layout: post
 categories: media
 ---
-## Download VMware Workstation Player
+## VMware Installation
+
+### Download VMware Workstation Player
 
 We can freely download the VMware Workstation Player from the [Official Website](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html). It shows the download options for both Windows and Linux as shown in Fig 1.
 
@@ -14,7 +16,7 @@ Fig 1
 
 Click the Download Now Link for Windows as highlighted in Fig 1. It will start downloading the most recent version of VMware Workstation Player for Windows.
 
-## Install VMware Workstation Player
+### Install VMware Workstation Player
 
 In this step, we will install the VMware Workstation Player on Windows 10 using the executable downloaded by us in the previous step. Now execute the download to start installing the player on Windows. It will show the Welcome Screen as shown in Fig 1.
 
@@ -63,7 +65,7 @@ Fig 9
 
 Now click the Finish Button to close the installer. This completes the installation of VMware Workstation Player installation on Windows 10.
 
-## Launch VMware Workstation Player
+### Launch VMware Workstation Player
 
 Now execute the player using the desktop launcher icon. It will ask to choose the license option for the first time as shown in Fig 10.
 
@@ -81,4 +83,35 @@ Click the Finish Button to start the player. It will start the player and shows 
 
 Fig 12
 
+## Ubuntu Installation
+
+### download Ubuntu
+
+Open the [Official Page](https://releases.ubuntu.com/20.04/) to download the Ubuntu 20.04 LTS Desktop. It provides the options to download Ubuntu Desktop as shown in Fig - Download Ubuntu.
+
+![image](https://user-images.githubusercontent.com/84153348/128749824-a8b01ab4-005e-4002-8f7e-4f6ec5a99e8b.png)
+
+Fig - Download Ubuntu
+
+### Create the Virtual Machine
+
+In this step, we will create the Virtual Machine used to install Ubuntu 20.04 LTS On Windows using VMware Workstation Player. Launch the VMware Workstation Player if it's not running. It will show the Welcome Screen as shown in Fig 1.
+
+![image](https://user-images.githubusercontent.com/84153348/128750177-b2d0b686-3ba5-47f4-bb08-a28b2b978d59.png)
+
+Fig 1
+
+Click the Player -> File -> New Virtual Machine OR Create a New Virtual Machine Link as shown in Fig 2.
+
+![image](https://user-images.githubusercontent.com/84153348/128750373-9a6d86da-8f2c-4fc3-8c4e-c9ed194ce8cc.png)
+
+Fig 2
+
+Choose the option - I will install the operating system later as shown in Fig 3.
+
+![image](https://user-images.githubusercontent.com/84153348/128750553-f2e0ca52-3877-4930-ba20-dcc1066c848c.png)
+
+Fig 3
+
+Click the Next Button to choose the Operating System as shown in Fig 4.
 
