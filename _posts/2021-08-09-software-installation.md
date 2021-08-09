@@ -17,6 +17,7 @@ Click the Download Now Link for Windows as highlighted in Fig 1. It will start d
 
 In this step, we will install the VMware Workstation Player on Windows 10 using the executable downloaded by us in the previous step. Now execute the download to start installing the player on Windows. It will show the Welcome Screen as shown in Fig 1.
 ![2-t24x7-vmware-player-welcome](https://user-images.githubusercontent.com/84153348/128747535-2e4ca7ff-8a96-4c20-810f-1864d5c50db4.png)
+
 Fig 2
 
 Click the Next Button to accept the License Agreement as shown in Fig 3.
