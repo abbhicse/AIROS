@@ -115,3 +115,38 @@ Fig 3
 
 Click the Next Button to choose the Operating System as shown in Fig 4.
 
+![image](https://user-images.githubusercontent.com/84153348/128860320-0c203466-41a2-4e8e-bde7-395edd9efaf9.png)
+
+Fig 4
+
+Select Linux as the Guest operating system and Ubuntu 64-bit as the Version as shown in Fig 4. Now click the Next Button to configure virtual machine name and installation path as shown in Fig 5.
+
+![image](https://user-images.githubusercontent.com/84153348/128860453-7d8000c7-ab5c-4d15-a60e-eac40d5dd15f.png)
+
+Fig 5
+
+Click the Next Button to configure the disk and allocate space as shown in Fig 6.
+
+![image](https://user-images.githubusercontent.com/84153348/128860547-e8a82112-91a3-4ca3-adcd-d9dcb119803d.png)
+
+Fig 6
+
+The next screen provides options to confirm the virtual machine as shown in Fig 7.
+
+![image](https://user-images.githubusercontent.com/84153348/128860662-b7727282-9a10-4cb3-87ac-c6798494c399.png)
+
+Fig 7
+
+We can also customize the hardware by clicking the Customize Hardware Button as highlighted in Fig 7. It will show the possible options to configure the virtual machine hardware as shown in Fig 8.
+
+Ubuntu 20.04 LTS on Windows using VMware - Virtual Machine ISO
+
+![image](https://user-images.githubusercontent.com/84153348/128860736-6249d6b7-ced3-42c2-abcf-1d180f940183.png)
+
+
+
+I have allocated 4GB of memory from 16GB and 4 cores from 16 cores to this virtual machine. It might differ on your system depending on your hardware. Also, choose the Ubuntu 20.04 LTS ISO as shown in Fig 8. Now click the Close Button to finalize the hardware for the virtual machine and click Finish Button to create the virtual machine as shown in Fig 9.
+
+![image](https://user-images.githubusercontent.com/84153348/128861159-16c69f86-575a-4a3a-87cf-b9c5265e9817.png)
+
+
