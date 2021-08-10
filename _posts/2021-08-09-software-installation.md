@@ -139,9 +139,9 @@ Fig 7
 
 We can also customize the hardware by clicking the Customize Hardware Button as highlighted in Fig 7. It will show the possible options to configure the virtual machine hardware as shown in Fig 8.
 
-Ubuntu 20.04 LTS on Windows using VMware - Virtual Machine ISO
-
 ![image](https://user-images.githubusercontent.com/84153348/128860736-6249d6b7-ced3-42c2-abcf-1d180f940183.png)
+
+Fig 8
 
 I have allocated 4GB of memory from 16GB and 4 cores from 16 cores to this virtual machine. It might differ on your system depending on your hardware. Also, choose the Ubuntu 20.04 LTS ISO as shown in Fig 8. Now click the Close Button to finalize the hardware for the virtual machine and click Finish Button to create the virtual machine as shown in Fig 9.
 
