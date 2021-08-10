@@ -234,12 +234,11 @@ Fig 24
 
 Now click the Continue Button to continue the installation. It will show the installation progress as shown in Fig 25, Fig 26, Fig 27, and Fig 28.
 
-![image](https://user-images.githubusercontent.com/84153348/128862665-685ae3c8-76c6-4730-8741-700c939c6883.png)
+![image](https://user-images.githubusercontent.com/84153348/128862659-c92f33a5-2359-4779-ad36-e915970f3956.png)
 
 Fig 25
 
-![image](https://user-images.githubusercontent.com/84153348/128862659-c92f33a5-2359-4779-ad36-e915970f3956.png)
-
+![image](https://user-images.githubusercontent.com/84153348/128862665-685ae3c8-76c6-4730-8741-700c939c6883.png)
 Fig 26
 
 ![image](https://user-images.githubusercontent.com/84153348/128862677-e2254ca0-72e8-41d6-8d7a-a4ee958026bb.png)
