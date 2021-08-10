@@ -143,10 +143,159 @@ Ubuntu 20.04 LTS on Windows using VMware - Virtual Machine ISO
 
 ![image](https://user-images.githubusercontent.com/84153348/128860736-6249d6b7-ced3-42c2-abcf-1d180f940183.png)
 
-
-
 I have allocated 4GB of memory from 16GB and 4 cores from 16 cores to this virtual machine. It might differ on your system depending on your hardware. Also, choose the Ubuntu 20.04 LTS ISO as shown in Fig 8. Now click the Close Button to finalize the hardware for the virtual machine and click Finish Button to create the virtual machine as shown in Fig 9.
 
 ![image](https://user-images.githubusercontent.com/84153348/128861159-16c69f86-575a-4a3a-87cf-b9c5265e9817.png)
 
+Fig 9
 
+It will add the Virtual Machine to the VMware library as shown in Fig 10.
+
+![image](https://user-images.githubusercontent.com/84153348/128862315-d0205ae6-67f9-4b55-8f94-299867f2ed4d.png)
+
+Fig 10
+
+### Install Ubuntu
+
+In this step, we will install Ubuntu On VMware Workstation Player using the Virtual Machine created by us in the previous step. The player will also provide the options to install VMware Tools for Linux. Installing the VMware Tools is optional at this stage. We can always install it later. VMware Tools is required to have the optimal performance of the guest operating system installed on the virtual machine. Now start the virtual machine by clicking the Play Button as shown in Fig 10. It will start installing the Ubuntu as shown in Fig 11 and Fig 12 and provides the options to choose the language as shown in Fig 13.
+
+![image](https://user-images.githubusercontent.com/84153348/128862346-14cfb099-990a-498a-8c3c-acbc2145ea2e.png)
+
+Fig 11
+
+![image](https://user-images.githubusercontent.com/84153348/128862363-bcceeb03-dd49-47d2-8e0f-5fee95758b36.png)
+
+Fig 12
+
+![image](https://user-images.githubusercontent.com/84153348/128862386-6268ce1a-569f-4479-b2ea-77ee88b6a907.png)
+
+Fig 13
+
+Choose appropriate language and click the Install Ubuntu Button. It will provide the options to choose the Keyboard Layout as shown in 
+Fig 14.
+
+![image](https://user-images.githubusercontent.com/84153348/128862447-58ffb54e-969b-4734-9ce3-9c2b900400ae.png)
+
+Fig 14
+
+Now click the Continue Button to choose installation type as shown in Fig 15 and Fig 16.
+
+![image](https://user-images.githubusercontent.com/84153348/128862477-792c06e7-7c1f-4ab4-9df3-d01be6012cd9.png)
+
+Fig 15
+
+![image](https://user-images.githubusercontent.com/84153348/128862488-ea52787e-37bd-41d3-b6a4-83959f1df8ff.png)
+
+Fig 16
+
+Choose the installation type as something else as shown in Fig 16. Click the Continue Button to partition the drive as shown in Fig 17.
+
+![image](https://user-images.githubusercontent.com/84153348/128862506-3df3048a-12d7-42ce-b75f-50de68369e12.png)
+
+Fig 17
+
+Now click the New Partition Table Button to start partitioning the drive. It will ask for confirmation to create new partitioning, partition the drive, and shows the free disk space as shown in Fig 18 and Fig 19.
+
+![image](https://user-images.githubusercontent.com/84153348/128862514-1608c5f8-4b26-4209-8882-6d3bbc45cd40.png)
+
+Fig 18
+
+![image](https://user-images.githubusercontent.com/84153348/128862537-bda42d43-5cae-4f43-abb6-0f9feb319c83.png)
+
+Fig 19
+
+Now click the Plus Icon to create the root partition as shown in Fig 20.
+
+![image](https://user-images.githubusercontent.com/84153348/128862547-f03240ad-d00b-4f2d-8400-cf2f67d60c91.png)
+
+Fig 20
+
+Allocate the required space to the root drive and create additional partitions if required. I have allocated the entire disk space to the root partition and configured the mount point to / as shown in Fig 20. Now click the OK Button to create the partition as shown in Fig 21.
+
+![image](https://user-images.githubusercontent.com/84153348/128862565-fe03e906-cff2-4d48-9ffd-228bbf2e7ae3.png)
+
+Fig 21
+
+Now keep the root partition selected and also check the Format Checkbox as shown in Fig 20. Click the Install Now Button to start installing Ubuntu 20.04. It will also ask to confirm the disk changes as shown in Fig 22.
+
+![image](https://user-images.githubusercontent.com/84153348/128862585-75e85e9f-2ee4-464c-bb95-cd7798f20e39.png)
+
+Fig 22
+
+Now click the Continue Button to choose the Timezone as shown in Fig 23 and also configure the root user as shown in Fig 24.
+
+![image](https://user-images.githubusercontent.com/84153348/128862620-3e80b81d-0b3c-4956-af19-0cf0cd756340.png)
+
+Fig 23
+
+![image](https://user-images.githubusercontent.com/84153348/128862639-9ff2d8c5-b95b-42f4-baf3-0581e04ff8b0.png)
+
+Fig 24
+
+Now click the Continue Button to continue the installation. It will show the installation progress as shown in Fig 25, Fig 26, Fig 27, and Fig 28.
+
+![image](https://user-images.githubusercontent.com/84153348/128862665-685ae3c8-76c6-4730-8741-700c939c6883.png)
+
+Fig 25
+
+![image](https://user-images.githubusercontent.com/84153348/128862659-c92f33a5-2359-4779-ad36-e915970f3956.png)
+
+Fig 26
+
+![image](https://user-images.githubusercontent.com/84153348/128862677-e2254ca0-72e8-41d6-8d7a-a4ee958026bb.png)
+
+Fig 27
+
+![image](https://user-images.githubusercontent.com/84153348/128862683-08df92ee-1c00-4784-baa7-5922a3eb1545.png)
+
+Fig 28
+
+It will show the success message on completing the installation as shown in Fig 29.
+
+![image](https://user-images.githubusercontent.com/84153348/128862691-b7ea1888-9865-4fe5-b8aa-17ccbc887196.png)
+
+Fig 29
+
+Click the Restart Now Button to restart Ubuntu It will ask to remove the installation media as shown in Fig 30.
+
+![image](https://user-images.githubusercontent.com/84153348/128863284-ded7eb26-6554-485b-899a-c1f10779aac9.png)
+
+Fig 30
+
+Simply press the Enter Key to continue. It will show the login screen as shown in Fig 31 and Fig 32.
+
+![image](https://user-images.githubusercontent.com/84153348/128863297-bf0d1967-cd56-4481-8810-78b1f5f87160.png)
+
+Fig 31
+
+![image](https://user-images.githubusercontent.com/84153348/128863307-3e41c1e0-c0ee-4935-ae9c-3b859dd0da15.png)
+
+Fig 32
+
+Now enter the password provided by you while installing Ubuntu. The player will show the Ubuntu Dashboard as shown in Fig 33 and shows the intro steps as shown in Fig 34, Fig 35, Fig 36, Fig 37, and Fig 38.
+
+Ubuntu 20.04 LTS on Windows using VMware - Desktop
+
+Fig 33
+
+Ubuntu 20.04 LTS on Windows using VMware - Intro
+
+Fig 34
+
+Ubuntu 20.04 LTS on Windows using VMware - Intro
+
+Fig 35
+
+Ubuntu 20.04 LTS on Windows using VMware - Intro
+
+Fig 36
+
+Ubuntu 20.04 LTS on Windows using VMware - Intro
+
+Fig 37
+
+Ubuntu 20.04 LTS on Windows using VMware - Intro
+
+Fig 38
+
+This completes the installation of Ubuntu 20.04 LTS on Windows 10 using the VMware Workstation Player.
