@@ -25,3 +25,7 @@ categories: media
 [Follow step 1 to step 2](https://linuxize.com/post/how-to-install-anaconda-on-ubuntu-20-04/)
 
 [Follow step 3 to step 6](https://phoenixnap.com/kb/how-to-install-anaconda-ubuntu-18-04-or-20-04#ftoc-heading-4)
+
+### JupyterLab and Notebook Installation
+
+[Installing the Jupyter Software](https://jupyter.org/install)
