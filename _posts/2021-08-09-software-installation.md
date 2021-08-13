@@ -35,3 +35,7 @@ categories: media
 ### JupyterLab and Notebook Installation
 
 [Installing the Jupyter Software](https://jupyter.org/install)
+
+### A Jupyter Kernel For C++ Installation
+
+[xeus-cling](https://github.com/jupyter-xeus/xeus-cling)
