@@ -26,7 +26,8 @@ categories: media
 
 - [Download the Latest Version of Anaconda](https://www.anaconda.com/products/individual)
 
-- Go to the download folder using the ubuntu terminal:
+- Go to the download folder using your ubuntu command terminal:
+
 ``` cd /home/abbhicse/Downloads ```
 
 - [Follow step 3 to step 6](https://phoenixnap.com/kb/how-to-install-anaconda-ubuntu-18-04-or-20-04#ftoc-heading-4)
