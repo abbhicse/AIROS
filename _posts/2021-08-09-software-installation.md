@@ -47,11 +47,13 @@ It has some interesting extensions (e.g. spell checker, collapsible headings, ..
 
 To install Nbextensions using pip do the following:
 
-```pip install jupyter_contrib_nbextensions
+```
+   pip install jupyter_contrib_nbextensions
    pip install jupyter_nbextensions_configurator
    jupyter contrib nbextension install --user 
    jupyter nbextensions_configurator enable --user
-```   
+   
+```
 Then you will see in your Jupyter homepage a new tab (Nbextensions), where you can enable and configure different extension.
 After enabling the "Export HTML With Embedded Images", you will see the corresponding option in the "File-Download as" menu.
 
