@@ -22,11 +22,14 @@ categories: media
 
 ### Anaconda Installation
 
-[Follow step 1 to step 2](https://linuxize.com/post/how-to-install-anaconda-on-ubuntu-20-04/)
+- [Follow step 1](https://linuxize.com/post/how-to-install-anaconda-on-ubuntu-20-04/)
 
+- [Download the Latest Version of Anaconda](https://www.anaconda.com/products/individual)
 
+- Go to the download folder using the ubuntu terminal:
+``` cd /home/abbhicse/Downloads ```
 
-[Follow step 3 to step 6](https://phoenixnap.com/kb/how-to-install-anaconda-ubuntu-18-04-or-20-04#ftoc-heading-4)
+- [Follow step 3 to step 6](https://phoenixnap.com/kb/how-to-install-anaconda-ubuntu-18-04-or-20-04#ftoc-heading-4)
 
 ### JupyterLab and Notebook Installation
 
