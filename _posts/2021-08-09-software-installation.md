@@ -43,9 +43,9 @@ categories: media
 
 ### Install THE Unofficial Jupyter Notebook Extensions
 
-It has some interesting extensions (e.g. spell checker, collapsible headings, ...). One of the extensions is Export HTML With Embedded Images which exactly does what you want.
+It has some interesting extensions (e.g. spell checker, collapsible headings, ...). One of the extensions is [Export HTML With Embedded Images](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/export_embedded/readme.html) which exactly does what you want.
 
-To install Nbextensions using pip do the following:
+To install [Nbextensions](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/) using pip do the following:
 
 ```
    pip install jupyter_contrib_nbextensions
