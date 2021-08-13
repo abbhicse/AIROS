@@ -28,7 +28,7 @@ categories: media
 
 - Go to the download folder using your ubuntu command terminal:
 
-``` cd /home/abbhicse/Downloads ```
+  ``` cd /home/abbhicse/Downloads ```
 
 - [Follow step 3 to step 6](https://phoenixnap.com/kb/how-to-install-anaconda-ubuntu-18-04-or-20-04#ftoc-heading-4)
 
