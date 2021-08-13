@@ -30,7 +30,7 @@ categories: media
 
   ``` cd /home/abbhicse/Downloads ```
 
-- [Follow step 3 to step 6](https://phoenixnap.com/kb/how-to-install-anaconda-ubuntu-18-04-or-20-04#ftoc-heading-4)
+- [Follow step 4 to step 6](https://phoenixnap.com/kb/how-to-install-anaconda-ubuntu-18-04-or-20-04#ftoc-heading-4)
 
 ### JupyterLab and Notebook Installation
 
