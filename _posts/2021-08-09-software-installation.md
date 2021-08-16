@@ -20,6 +20,9 @@ categories: media
 
 [Install Python 3 on Ubuntu 18.04 or 20.04](https://phoenixnap.com/kb/how-to-install-python-3-ubuntu)
 
+``` sudo apt install idle
+```
+
 ### Anaconda Installation
 
 - [Follow step 1](https://linuxize.com/post/how-to-install-anaconda-on-ubuntu-20-04/)
