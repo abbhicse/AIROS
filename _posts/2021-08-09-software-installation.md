@@ -57,7 +57,7 @@ To install [Nbextensions](https://jupyter-contrib-nbextensions.readthedocs.io/en
 Then you will see in your Jupyter homepage a new tab (Nbextensions), where you can enable and configure different extension.
 After enabling the "Export HTML With Embedded Images", you will see the corresponding option in the "File-Download as" menu.
 
-### Jupyter-ROS Insatallation : Optional[Who want to use ROS with jupyter]
+### Jupyter-ROS Insatallation Optional for them who want to use ROS with jupyter
 - [ROS Noetic](https://github.com/RoboStack/ros-noetic)
 - [Jupyter-ROS](https://github.com/RoboStack/jupyter-ros)
 - [JupyterLab-ROS](https://github.com/RoboStack/jupyterlab-ros)
