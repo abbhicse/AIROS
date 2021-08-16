@@ -61,3 +61,7 @@ After enabling the "Export HTML With Embedded Images", you will see the correspo
 - [ROS Noetic](https://github.com/RoboStack/ros-noetic)
 - [Jupyter-ROS](https://github.com/RoboStack/jupyter-ros)
 - [JupyterLab-ROS](https://github.com/RoboStack/jupyterlab-ros)
+
+### Running C++ With ROS In Jupyter Using Xeus-Cling
+
+[rapyuta-robotics blog](https://github.com/rapyuta-robotics/jupyter_ros_utils)
