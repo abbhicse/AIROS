@@ -67,3 +67,7 @@ After enabling the "Export HTML With Embedded Images", you will see the correspo
 ### Running C++ With ROS In Jupyter Using Xeus-Cling
 
 [rapyuta-robotics blog](https://github.com/rapyuta-robotics/jupyter_ros_utils)
+
+### Mounting VMware Shares from the Command Line on Linux VM
+
+[Linuxhint.com](https://linuxhint.com/mount_vmware_shares_command_line_linux_vm/)
