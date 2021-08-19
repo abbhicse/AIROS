@@ -75,8 +75,8 @@ After enabling the "Export HTML With Embedded Images", you will see the correspo
 - Under ```Option``` tab, right click on ```Shared Folders```
 - Select the option ```Always enabled``` and then click ok
 - Edit ```/etc/fstab``` and add:
-- ```vmhgfs-fuse    /mnt/hgfs    fuse    defaults,allow_other    0    0 ```
+  ```vmhgfs-fuse    /mnt/hgfs    fuse    defaults,allow_other    0    0 ```
 - Make sure the target folder exists. If not:
-- ```sudo mkdir /mnt/hgfs```
+  ```sudo mkdir /mnt/hgfs```
 - Then remount:
-- ```sudo mount -a```
+  ```sudo mount -a```
