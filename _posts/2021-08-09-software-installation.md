@@ -16,7 +16,7 @@ categories: media
 
 [Install ROS Noetic on Ubuntu 20.04](https://varhowto.com/install-ros-noetic-ubuntu-20-04/)
 
-### Python Installation
+### Python Installation Optional
 
 [Install Python 3 on Ubuntu 18.04 or 20.04](https://phoenixnap.com/kb/how-to-install-python-3-ubuntu)
 
