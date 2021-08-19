@@ -70,4 +70,13 @@ After enabling the "Export HTML With Embedded Images", you will see the correspo
 
 ### Mounting VMware Shares from the Command Line on Linux VM
 
-[Linuxhint.com](https://linuxhint.com/mount_vmware_shares_command_line_linux_vm/)
+- Left click on ubuntu 64 bit virtual disk image file
+- Right click on setting 
+- Under ```Option``` tab, right click on ```Shared Folders```
+- Select the option ```Always enabled``` and then click ok
+- Edit ```/etc/fstab``` and add:
+- ```vmhgfs-fuse    /mnt/hgfs    fuse    defaults,allow_other    0    0 ```
+- Make sure the target folder exists. If not:
+- ```sudo mkdir /mnt/hgfs```
+- Then remount:
+- ```sudo mount -a```
