@@ -76,3 +76,9 @@ After enabling the "Export HTML With Embedded Images", you will see the correspo
 - Now edit fstab file via this command: ```gedit fstab``` and add: ```vmhgfs-fuse    /mnt/hgfs    fuse    defaults,allow_other    0    0 ```
 - Make sure the target folder exists. If not: ```sudo mkdir /mnt/hgfs```
 - Then remount: ```sudo mount -a```
+
+### Some Problems
+
+Problem 1: ``` /usr/bin/env: ‘python’: No such file or directory ```
+Solution 1: ``` sudo apt-get install python3 ```
+Solution 2: ``` whereis python3 ``` and then: ```sudo ln -s /usr/bin/python3 /usr/bin/python  ```
