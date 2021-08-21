@@ -80,5 +80,7 @@ After enabling the "Export HTML With Embedded Images", you will see the correspo
 ### Some Problems
 
 Problem 1: ``` /usr/bin/env: ‘python’: No such file or directory ```
+
 Solution 1: ``` sudo apt-get install python3 ```
+
 Solution 2: ``` whereis python3 ``` and then: ```sudo ln -s /usr/bin/python3 /usr/bin/python  ```
