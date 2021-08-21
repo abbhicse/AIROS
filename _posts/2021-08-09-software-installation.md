@@ -83,4 +83,6 @@ Solution 1: ``` sudo apt-get install python3 ```
 
 Solution 2: ``` whereis python3 ``` and then: ```sudo ln -s /usr/bin/python3 /usr/bin/python  ```
 
+### Problem 2: ```roscd: No such package/stack 'hello_world'```
+
 
