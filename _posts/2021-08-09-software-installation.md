@@ -12,6 +12,10 @@ categories: media
 
 [Install Ubuntu 20.04 LTS On Windows Using VMware Workstation Player](https://ubuntu.tutorials24x7.com/blog/how-to-install-ubuntu-20-04-lts-on-windows-using-vmware-workstation-player)
 
+### Installing VMware Tools in an Ubuntu Virtual Machine
+
+[Install VMware Tools in Ubuntu or Ubuntu Server with a graphical user interface](https://kb.vmware.com/s/article/1022525)
+
 ### ROS 1 Installation
 
 [Install ROS Noetic on Ubuntu 20.04](https://varhowto.com/install-ros-noetic-ubuntu-20-04/)
