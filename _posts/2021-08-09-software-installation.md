@@ -89,4 +89,6 @@ Solution 2: ``` whereis python3 ``` and then: ```sudo ln -s /usr/bin/python3 /us
 
 ### Problem 2: ```roscd: No such package/stack 'hello_world'```
 
-
+### Problem 3: ```zmq: Can not launch jupyter notebook```
+- pip uninstall pyzmq
+- pip install pyzmq
