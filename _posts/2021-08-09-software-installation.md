@@ -61,11 +61,11 @@ After enabling the "Export HTML With Embedded Images", you will see the correspo
 
 ### A Jupyter Kernel For C++ Installation
 
-Try this command during ROS Noetic installation: `conda install ros-noetic-desktop-full root`
-Go to this directory:`~/.rootnb/kernels` and copy the `root` folder
-Then go to directory:`~/miniconda3/envs/robostackenv/share/jupyter/kernels` and paste the `root` folder
-Now open the `kernel.json` file in `root` folder and replace this ` "python"` with `"/home/abbhicse/miniconda3/envs/robostackenv/bin/python"`
-Now save and close the `kernel.json` file
+- Try this command during ROS Noetic installation: `conda install ros-noetic-desktop-full root`
+- Go to this directory:`~/.rootnb/kernels` and copy the `root` folder
+- Then go to directory:`~/miniconda3/envs/robostackenv/share/jupyter/kernels` and paste the `root` folder
+- Now open the `kernel.json` file in `root` folder and replace this ` "python"` with `"/home/abbhicse/miniconda3/envs/robostackenv/bin/python"`
+- Now save and close the `kernel.json` file
 
 ### Mounting VMware Shares from the Command Line on Linux VM
 
