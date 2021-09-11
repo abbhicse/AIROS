@@ -61,7 +61,7 @@ After enabling the "Export HTML With Embedded Images", you will see the correspo
 
 ### A Jupyter Kernel For C++ Installation
 
-[ROOT](https://root.cern/install/)
+Try this command during ROS Noetic installation: `conda install ros-noetic-desktop-full root`
 
 ### Mounting VMware Shares from the Command Line on Linux VM
 
