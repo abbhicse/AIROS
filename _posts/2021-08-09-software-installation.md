@@ -42,10 +42,6 @@ categories: media
 
 [Installing the Jupyter Software](https://jupyter.org/install)
 
-### A Jupyter Kernel For C++ Installation
-
-[ROOT](https://root.cern/install/)
-
 
 ### Install THE Unofficial Jupyter Notebook Extensions
 
@@ -62,6 +58,10 @@ After enabling the "Export HTML With Embedded Images", you will see the correspo
 - [ROS Noetic](https://github.com/RoboStack/ros-noetic)
 - [Jupyter-ROS](https://github.com/RoboStack/jupyter-ros)
 - [JupyterLab-ROS](https://github.com/RoboStack/jupyterlab-ros)
+
+### A Jupyter Kernel For C++ Installation
+
+[ROOT](https://root.cern/install/)
 
 ### Mounting VMware Shares from the Command Line on Linux VM
 
