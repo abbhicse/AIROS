@@ -66,7 +66,7 @@ After enabling the "Export HTML With Embedded Images", you will see the correspo
 - Then go to directory:`~/miniconda3/envs/robostackenv/share/jupyter/kernels` and paste the `root` folder
 - Now open the `kernel.json` file in `root` folder and replace this ` "python"` with `"/home/abbhicse/miniconda3/envs/robostackenv/bin/python"`
 - Now save and close the `kernel.json` file
-- or we can install [cling kernal](https://github.com/jupyter-xeus/xeus-cling)
+#### we can install [cling kernal](https://github.com/jupyter-xeus/xeus-cling)
 
 ### Mounting VMware Shares from the Command Line on Linux VM
 
