@@ -12,3 +12,4 @@ layout: page
   - [ROS_Cartographer](https://google-cartographer-ros.readthedocs.io/en/latest/index.html)
   - [Hector_SLAM](http://wiki.ros.org/hector_slam)
   - [Open_SLAM](http://wiki.ros.org/slam_gmapping?distro=noetic)
+  - [Pluginlib_Nodelet]()
