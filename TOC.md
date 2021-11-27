@@ -7,6 +7,6 @@ layout: page
 
   - [Introduction to robotics](https://abbhicse.github.io/AIROS/introduction-to-robotics/)
   - [Software installation](https://abbhicse.github.io/AIROS/software-installation/)
-  - [Teb_Local_Planner_Tutorials](http://wiki.ros.org/teb_local_planner/Tutorials)
+  - [Teb_Local_Planner](http://wiki.ros.org/teb_local_planner)
   - 
 
