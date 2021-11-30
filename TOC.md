@@ -7,6 +7,7 @@ layout: page
 
   - [Introduction to robotics](https://abbhicse.github.io/AIROS/introduction-to-robotics/)
   - [Software installation](https://abbhicse.github.io/AIROS/software-installation/)
+  - [Lec-1 to 15 include]
   - [Teb_Local_Planner](http://wiki.ros.org/teb_local_planner)
   - [Move_Base_Flex](http://wiki.ros.org/move_base_flex)
   - [ROS_Cartographer](https://google-cartographer-ros.readthedocs.io/en/latest/index.html)
