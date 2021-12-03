@@ -93,3 +93,6 @@ Solution 2: ``` whereis python3 ``` and then: ```sudo ln -s /usr/bin/python3 /us
 ### Problem 3: ```zmq: Can not launch jupyter notebook```
 - pip uninstall pyzmq
 - pip install pyzmq
+
+### OpenGL issues with Gazebo and VMWare
+- [roboacademy.com](https://robocademy.com/2020/05/02/solved-opengl-issues-with-gazebo-and-vmware/)
