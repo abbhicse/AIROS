@@ -8,8 +8,7 @@ layout: page
   - [Introduction to robotics](https://abbhicse.github.io/AIROS/introduction-to-robotics/)
   - [Software installation](https://abbhicse.github.io/AIROS/software-installation/)
   - [Lec-1 to 15 include]
+  - Lec16.ROS_SLAM
   - [Teb_Local_Planner](http://wiki.ros.org/teb_local_planner)
   - [Move_Base_Flex](http://wiki.ros.org/move_base_flex)
-  - [Hector_SLAM](http://wiki.ros.org/hector_slam)
-  - [Open_SLAM](http://wiki.ros.org/slam_gmapping?distro=noetic)
   - [Pluginlib_Nodelet]()
