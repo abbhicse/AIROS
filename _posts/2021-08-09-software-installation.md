@@ -96,7 +96,7 @@ Solution 2: ``` whereis python3 ``` and then: ```sudo ln -s /usr/bin/python3 /us
 
 ### OpenGL issues with Gazebo and VMWare
 - [roboacademy.com](https://robocademy.com/2020/05/02/solved-opengl-issues-with-gazebo-and-vmware/)
-- 
+ 
 ### Matlab Installation
 - [Window](https://www.educba.com/install-matlab/)
 - [Ubuntu](https://linuxconfig.org/how-to-install-matlab-on-ubuntu-20-04-focal-fossa-linux)
