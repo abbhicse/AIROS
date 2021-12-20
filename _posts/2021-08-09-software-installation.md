@@ -98,6 +98,7 @@ Solution 2: ``` whereis python3 ``` and then: ```sudo ln -s /usr/bin/python3 /us
 - [roboacademy.com](https://robocademy.com/2020/05/02/solved-opengl-issues-with-gazebo-and-vmware/)
  
 ### Matlab Installation
+We can use matlab coder to convert ocatve or matlab code into .cpp or c code easily
 - [Window](https://www.educba.com/install-matlab/)
 - [Ubuntu](https://linuxconfig.org/how-to-install-matlab-on-ubuntu-20-04-focal-fossa-linux)
 
