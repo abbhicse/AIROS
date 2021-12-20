@@ -96,3 +96,19 @@ Solution 2: ``` whereis python3 ``` and then: ```sudo ln -s /usr/bin/python3 /us
 
 ### OpenGL issues with Gazebo and VMWare
 - [roboacademy.com](https://robocademy.com/2020/05/02/solved-opengl-issues-with-gazebo-and-vmware/)
+
+## Install matlab to python converter
+The code is written in python, you can access it as follows:
+```bash
+git clone https://github.com/ebranlard/matlab2python
+cd matlab2python
+sudo apt install python3-pip
+python3 -m pip install --user -r requirements.txt
+```
+
+## Usage of matlab2python
+The main script at the root of the repository is executable and has a couple of command line flags (some of them taken directly from SMOP). 
+To convert the file `file.m` to `file.py`, simply type:
+```bash
+python3 matlab2python.py file.m -o file.py
+```
