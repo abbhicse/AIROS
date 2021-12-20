@@ -115,5 +115,5 @@ python3 -m pip install --user -r requirements.txt
 The main script at the root of the repository is executable and has a couple of command line flags (some of them taken directly from SMOP). 
 To convert the file `file.m` to `file.py`, simply type:
 ```bash
-python3 matlab2python.py file.m -o file.py
+python3 matlab2python.py /path to file/file.m -o /path to file/file.py
 ```
