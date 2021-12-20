@@ -101,7 +101,7 @@ Solution 2: ``` whereis python3 ``` and then: ```sudo ln -s /usr/bin/python3 /us
 - [Window](https://www.educba.com/install-matlab/)
 - [Ubuntu](https://linuxconfig.org/how-to-install-matlab-on-ubuntu-20-04-focal-fossa-linux)
 
-## Install matlab to python converter
+### Install matlab to python converter
 The code is written in python, you can access it as follows:
 ```bash
 git clone https://github.com/ebranlard/matlab2python
@@ -110,7 +110,7 @@ sudo apt install python3-pip
 python3 -m pip install --user -r requirements.txt
 ```
 
-## Usage of matlab2python
+### Usage of matlab2python
 The main script at the root of the repository is executable and has a couple of command line flags (some of them taken directly from SMOP). 
 To convert the file `file.m` to `file.py`, simply type:
 ```bash
