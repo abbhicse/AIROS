@@ -99,8 +99,8 @@ Solution 2: ``` whereis python3 ``` and then: ```sudo ln -s /usr/bin/python3 /us
  
 ### Matlab Installation
 We can use matlab coder to convert ocatve or matlab code into .cpp or c code easily. We can also generate ros package inside matlab software.
-- [Window](https://www.educba.com/install-matlab/)
-- [Ubuntu](https://linuxconfig.org/how-to-install-matlab-on-ubuntu-20-04-focal-fossa-linux)
+- [Window Host](https://www.educba.com/install-matlab/)
+- [Ubuntu Host](https://linuxconfig.org/how-to-install-matlab-on-ubuntu-20-04-focal-fossa-linux)
 
 ### Install matlab to python converter
 The code is written in python, you can access it as follows:
