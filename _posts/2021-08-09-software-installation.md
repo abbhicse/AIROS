@@ -101,7 +101,9 @@ Solution 2: ``` whereis python3 ``` and then: ```sudo ln -s /usr/bin/python3 /us
 We can use matlab coder to convert ocatve or matlab code into .cpp or c code easily. We can also generate ros node inside matlab software.
 - [Window Host](https://www.educba.com/install-matlab/)
 - [Ubuntu Host](https://linuxconfig.org/how-to-install-matlab-on-ubuntu-20-04-focal-fossa-linux)
-
+- make a desktop launcher for MATLAB in Ubuntu : In your terminal, type  `sudo apt-get install matlab-support`, press `ente`r, and follow the instructions
+- While get an error regarding "Could not be written to the disk/drive": For windows , By default, the activation client is located here: `"C:\Program Files\MATLAB\R20XXx\bin\win64\activate_matlab.exe` 
+- For Ubuntu: `cd /usr/local/MATLAB/R2018a/bin && sudo -E ./activate_matlab.sh`
 ### Install matlab to python converter
 The code is written in python, you can access it as follows:
 ```bash
