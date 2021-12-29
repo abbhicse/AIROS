@@ -78,7 +78,7 @@ After enabling the "Export HTML With Embedded Images", you will see the correspo
 - Now click ```Next``` and then ```Finish``` and then ok
 - Next power on the ubuntu image file
 - Now go to ```etc``` folder under root directory by the command: ``` cd /etc```
-- Now edit fstab file via this command: ```gedit fstab``` and add: ```vmhgfs-fuse    /mnt/hgfs    fuse    defaults,allow_other    0    0 ```
+- Now edit fstab file via this command: ```sudo nano fstab``` and add: ```vmhgfs-fuse    /mnt/hgfs    fuse    defaults,allow_other    0    0 ```
 - Make sure the target folder exists. If not: ```sudo mkdir /mnt/hgfs```
 - Then remount: ```sudo mount -a```
 
