@@ -119,3 +119,42 @@ To convert the file `file.m` to `file.py`, simply type:
 ```bash
 python3 matlab2python.py /path to file/file.m -o /path to file/file.py
 ```
+### Resize virtual disk
+
+
+
+This answer is directed at a Windows host, but if you use bash in place of the PowerShell and replace '\' with '/' it should work just fine.
+
+   #### From VirtualBox
+        Release the VDI file: File -> Virtual Media Manager -> Select VDI -> Release
+        Copy the location of the VDI inside the properties box 'C:\Users\campbell\VirtualBox VMs\Ubuntu14\Ubuntu14.vdi'
+        Backup the VDI file
+            Copy the VDI file to a new location.
+            Assign a new UUID to the original VDI file:
+                Start Powershell (not as an administrator):
+                Change to your Oracle VirtualBox directory cd  C:\Program Files\Oracle\VirtualBox
+                .\VBoxManage.exe internalcommands sethduuid "C:\Users\campbell\VirtualBox VMs\Ubuntu14\Ubuntu14.vdi"
+        Remove and re-add your machine's .vdi file to update its UUID.
+            File -> Virtual Media Manager -> Select VDI -> Remove
+            Apply.
+            Right click your VM -> Configuration -> Storage -> Controller: SATA -> Add new hard drive. Select your .vdi file.
+   #### From host
+        Work out desired size: you can google it, eg. '40 Gb=MB' returns 40000 MB
+        Start PowerShell (not as administrator)
+        Change to your Oracle VirtualBox directory cd C:\Program Files\Oracle\VirtualBox
+        Resize your .vdi file .\VBoxManage.exe modifyhd "C:\Users\campbell\VirtualBox VMs\Ubuntu14\Ubuntu14.vdi" --resize 40000
+        Now start your virtual machine. You will receive the same warning about space that prompted you to engage in this procedure. Not to worry, we are near the end.
+   #### On your virtual machine
+        Start the partition manager gparted (install it if is is missing sudo apt-get install gparted)
+        Get rid of the swap partition, which prevents you from expanding the root partition. Note that you cannot harm the rest of your machine - this is all happening inside a single file. Worst case scenario you trash this file and you have to use your backup instead.
+            Make a note of the size of the linux-swap partition 4 GiB in my case
+            Right click on it and Swapoff
+            Right click on it and Delete
+            Apply by clicking on the checkmark (Apply all operations). Ignore the dire warning - life is too short to indulge Cassandras
+            right click on the extended file system that once housed the swap partition (/dev/sda2 in all likelihood) and delete it
+            right click on the root partition (/dev/sda1) and resize it. Tab to the 'Free space following' field and enter the size of the swap partition. Shift-Tab and the machine will work out the new size for you automatically.
+            Right click in the unallocated space at the end and make it an extended partition
+            Right click in the new partition and select linux-swap in the File system field.
+            Commit your changes as before
+            Right click on your swap partition and select swapon
+            Tell the Fat Lady to commence singing
