@@ -132,7 +132,7 @@ This answer is directed at a Windows host, but if you use bash in place of the P
             - Copy the VDI file to a new location.
             - Assign a new UUID to the original VDI file:
                 - Start Powershell (not as an administrator):
-                - Change to your Oracle VirtualBox directory cd  C:\Program Files\Oracle\VirtualBox
+                - Change to your Oracle VirtualBox directory cd "C:\Program Files\Oracle\VirtualBox"
                 .\VBoxManage.exe internalcommands sethduuid "C:\Users\campbell\VirtualBox VMs\Ubuntu14\Ubuntu14.vdi"
         - Remove and re-add your machine's .vdi file to update its UUID.
             File -> Virtual Media Manager -> Select VDI -> Remove
@@ -141,7 +141,7 @@ This answer is directed at a Windows host, but if you use bash in place of the P
    #### From host
         - Work out desired size: you can google it, eg. '40 Gb=MB' returns 40000 MB
         - Start PowerShell (not as administrator)
-        - Change to your Oracle VirtualBox directory cd C:\Program Files\Oracle\VirtualBox
+        - Change to your Oracle VirtualBox directory cd "C:\Program Files\Oracle\VirtualBox"
         - Resize your .vdi file .\VBoxManage.exe modifyhd "C:\Users\campbell\VirtualBox VMs\Ubuntu14\Ubuntu14.vdi" --resize 40000
         - Now start your virtual machine. You will receive the same warning about space that prompted you to engage in this procedure. Not to worry, we are near the end.
    #### On your virtual machine
