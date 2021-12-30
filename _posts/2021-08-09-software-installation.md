@@ -121,5 +121,5 @@ python3 matlab2python.py /path to file/file.m -o /path to file/file.py
 ```
 ### Resize virtual disk
 
-- Use VMware to increase the hard disk size
-- Use disk utility of Ubuntu to add the unallocated space to the root partition
+- Use `VMware` to increase the hard disk size
+- Use `disk` utility of Ubuntu to add the unallocated space to the root partition
