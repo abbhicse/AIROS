@@ -104,6 +104,23 @@ We can use matlab coder to convert ocatve or matlab code into .cpp or c code eas
 - make a desktop launcher for MATLAB in Ubuntu : In your terminal, type  `sudo apt-get install matlab-support`, press `enter`, and follow the instructions
 - While get an error regarding "Could not be written to the disk/drive": For windows , By default, the activation client is located here: `"C:\Program Files\MATLAB\R20XXx\bin\win64\activate_matlab.exe` 
 - For Ubuntu: `cd /usr/local/MATLAB/R2018a/bin && sudo -E ./activate_matlab.sh`
+### Matlab Uninstallation
+- If you are running a license manager for MATLAB, shut down the license manager using the lmdown script located in MATLAB's etc directory. If this folder does not exist, you are not running the FlexNet license manager. For example:
+
+    [root@localhost ~] `/usr/local/MATLAB/R2010b/etc/lmdown`
+
+- You should also remove any license manager files in the `/var/tmp` directory. These files should begin with `lm_TMW`, e.g.:
+
+    [root@localhost ~] `sudo rm /var/tmp/lm_TMW*`
+
+- Remove the entire root MATLAB directory using the rm -rf command, e. g.:
+
+    [root@localhost ~] `sudo rm -rf /usr/local/MATLAB/R2018a`
+
+ - Remove any symlinks to MATLAB binaries on the path, e. g.:
+
+    [root@localhost ~] `sudo rm /usr/local/bin/matlab /usr/local/bin/mcc /usr/local/bin/mex /usr/local/bin/mbuild`
+    
 ### Install matlab to python converter
 The code is written in python, you can access it as follows:
 ```bash
